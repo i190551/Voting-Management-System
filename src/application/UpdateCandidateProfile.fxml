@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateCandidateProfile">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="newusername" layoutX="221.0" layoutY="292.0" promptText="New Username" />
+            <Text layoutX="35.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Username">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Password">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="newpass" layoutX="221.0" layoutY="349.0" promptText="New Password" />
+            <Text layoutX="172.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Profile" wrappingWidth="382.833984375">
+               <font>
+                  <Font size="52.0" />
+               </font>
+            </Text>
+            <Button fx:id="submit" layoutX="237.0" layoutY="427.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+            <ImageView fitHeight="216.0" fitWidth="304.0" layoutX="447.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/2066.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="36.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Your CNIC">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="oldcnic" layoutX="221.0" layoutY="175.0" promptText="CNIC" />
+            <Button layoutX="318.0" layoutY="427.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+            <Text layoutX="39.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update" wrappingWidth="215.515625">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

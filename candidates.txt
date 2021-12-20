@@ -1,0 +1,19 @@
+
+************************************************
+Candidate Name:Yusuf Gillani
+CNIC:1100001122334
+Party:PPP
+Symbol:Arrow
+Password:112233
+************************************************
+Candidate Name:Atif Khan
+CNIC:7412541111111
+Party:PTI
+Symbol:Bat
+Password:235689
+************************************************
+Candidate Name:Khawaja Muhammad
+CNIC:3740560666666
+Party:PPP
+Symbol:Arrow
+Password:1234

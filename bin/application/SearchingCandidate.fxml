@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.votingProcedure">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d3d3d3;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="searchbar" layoutX="165.0" layoutY="297.0" prefHeight="31.0" prefWidth="370.0" promptText="Search" style="-fx-background-color: grey;" />
+            <Button layoutX="210.0" layoutY="376.0" mnemonicParsing="false" onAction="#searchcand" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: grey;" text="Search" textFill="WHITE" />
+            <Button layoutX="366.0" layoutY="376.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="127.0" style="-fx-background-color: grey;" text="back" textFill="WHITE" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="255.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="172.0" fitWidth="182.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/favpng_punjab-pakistan-election-commission-of-pakistan-pakistani-general-election-2018-islamabad.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateProfile">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d3d3d3;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="cnic" layoutX="163.0" layoutY="174.0" prefHeight="31.0" prefWidth="236.0" promptText="cnic" style="-fx-background-color: grey;" />
+            <TextField fx:id="newusername" layoutX="163.0" layoutY="267.0" prefHeight="31.0" prefWidth="240.0" promptText="New Username" style="-fx-background-color: grey;" />
+            <TextField fx:id="newpassword" layoutX="163.0" layoutY="330.0" prefHeight="31.0" prefWidth="242.0" promptText="New Password" style="-fx-background-color: grey;" />
+            <Button layoutX="163.0" layoutY="414.0" mnemonicParsing="false" onAction="#submit" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: grey;" text="Submit" />
+            <Button layoutX="292.0" layoutY="414.0" mnemonicParsing="false" onAction="#cancel" prefHeight="31.0" prefWidth="117.0" style="-fx-background-color: grey;" text="Cancel" />
+            <Text layoutX="37.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your CNIC" />
+            <Text layoutX="37.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Username" />
+            <Text layoutX="37.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Password" />
+            <Text layoutX="247.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Profile" wrappingWidth="206.833984375">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="221.0" fitWidth="194.0" layoutX="444.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/PikPng.com_profile-icon-png_2863438.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="163.0" fitWidth="152.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/favpng_punjab-pakistan-election-commission-of-pakistan-pakistani-general-election-2018-islamabad.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,19 @@
+
+************************************************
+Voter Name:Usama Ahmed
+CNIC:4568523654125
+Age:95
+Place:Islamabad
+Password654789
+************************************************
+Voter Name:Aliyan Ali
+CNIC:1234567892222
+Age:22
+Place:Murree
+Passwordkhan123
+************************************************
+Voter Name:Arham Khan
+CNIC:3740560590134
+Age:19
+Place:Karachi
+Password:123

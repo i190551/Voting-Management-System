@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Approval">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d3d3d3;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="cnicvoter" layoutX="203.0" layoutY="298.0" prefHeight="31.0" prefWidth="296.0" promptText="CNIC" style="-fx-background-color: grey;" />
+            <Text layoutX="182.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter CNIC of Voter" wrappingWidth="337.0634765625">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Text>
+            <Button layoutX="205.0" layoutY="381.0" mnemonicParsing="false" onAction="#approve" prefHeight="31.0" prefWidth="141.0" style="-fx-background-color: grey;" text="Approve" textFill="#f8efef" />
+            <Button layoutX="366.0" layoutY="381.0" mnemonicParsing="false" onAction="#disapprove" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: grey;" text="Disapprove" textFill="#f5f5f5" />
+            <ImageView fitHeight="191.0" fitWidth="267.0" layoutX="246.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/id-card-3722061-3127345.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="164.0" fitWidth="144.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/favpng_punjab-pakistan-election-commission-of-pakistan-pakistani-general-election-2018-islamabad.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
